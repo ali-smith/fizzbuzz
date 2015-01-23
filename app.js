@@ -16,11 +16,11 @@ for (var i = 1; i < 101; i++) { // for loop counts to 100
 	};
 	
 	else if (i % 3 == 0) {
-		$('#list').append('<li><p>fizz</p></li>''); // condition: if i/3 = 0, then return 'fizz' 
+		$('#list').append('<li><p>fizz</p></li>'); // condition: if i/3 = 0, then return 'fizz' 
 	};
 
 	else if (i % 5 == 0) {
-		$('#list').append('<li><p>buzz</p></li>'');//condition: if i/5 = 0, then return 'buzz' 
+		$('#list').append('<li><p>buzz</p></li>');//condition: if i/5 = 0, then return 'buzz' 
 	};
 
 	else {
